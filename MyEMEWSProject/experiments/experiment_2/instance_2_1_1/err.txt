@@ -1,0 +1,237 @@
+Traceback (most recent call last):
+  File "/root/MyEMEWSProject/MEModel/CalibrationTest.py", line 29, in <module>
+    calibrationtest(x,dir)
+  File "/root/MyEMEWSProject/MEModel/CalibrationTest.py", line 11, in calibrationtest
+    output = p1.communicate()[0]
+  File "/usr/lib/python2.7/subprocess.py", line 792, in communicate
+    stdout = _eintr_retry_call(self.stdout.read)
+  File "/usr/lib/python2.7/subprocess.py", line 476, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt
+
+signal (2): Interrupt
+while loading /root/MyEMEWSProject/MEModel/fw1.jl, in expression starting on line 16
+sweep_page at /build/julia-bVoEld/julia-0.5.2/src/gc.c:945 [inlined]
+sweep_pool_region at /build/julia-bVoEld/julia-0.5.2/src/gc.c:1018 [inlined]
+gc_sweep_pool at /build/julia-bVoEld/julia-0.5.2/src/gc.c:1089
+_jl_gc_collect at /build/julia-bVoEld/julia-0.5.2/src/gc.c:1819 [inlined]
+jl_gc_collect at /build/julia-bVoEld/julia-0.5.2/src/gc.c:1883
+jl_gc_pool_alloc at /build/julia-bVoEld/julia-0.5.2/src/gc.c:828
+jl_gc_alloc_ at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:170 [inlined]
+jl_gc_alloc at /build/julia-bVoEld/julia-0.5.2/src/gc.c:1906
+_new_array_ at /build/julia-bVoEld/julia-0.5.2/src/array.c:95 [inlined]
+_new_array at /build/julia-bVoEld/julia-0.5.2/src/array.c:149 [inlined]
+jl_alloc_array_1d at /build/julia-bVoEld/julia-0.5.2/src/array.c:346
+jl_f__expr at /build/julia-bVoEld/julia-0.5.2/src/alloc.c:1355
+inlineable at ./inference.jl:2626
+unknown function (ip: 0x7f9618eee112)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+inlining_pass at ./inference.jl:3025
+inlining_pass at ./inference.jl:2930
+unknown function (ip: 0x7f9618ee5046)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+inlining_pass! at ./inference.jl:2872
+finish at ./inference.jl:1939
+typeinf_frame at ./inference.jl:1854
+typeinf_loop at ./inference.jl:1660
+typeinf_edge at ./inference.jl:1597
+unknown function (ip: 0x7f9618edef7a)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+typeinf_edge at ./inference.jl:1603
+unknown function (ip: 0x7f9618edd7ea)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_call_gf_by_type at ./inference.jl:893
+unknown function (ip: 0x7f9618edd1e6)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_call at ./inference.jl:1101
+unknown function (ip: 0x7f9618ed93ae)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_eval_call at ./inference.jl:1131
+abstract_eval at ./inference.jl:1152
+unknown function (ip: 0x7f9618ed7316)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_interpret at ./inference.jl:1251
+unknown function (ip: 0x7f9618ed5af6)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+typeinf_frame at ./inference.jl:1731
+typeinf_loop at ./inference.jl:1660
+typeinf_edge at ./inference.jl:1597
+unknown function (ip: 0x7f9618edef7a)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+typeinf_edge at ./inference.jl:1603
+unknown function (ip: 0x7f9618edd7ea)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_call_gf_by_type at ./inference.jl:893
+unknown function (ip: 0x7f9618edd1e6)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_call at ./inference.jl:1101
+unknown function (ip: 0x7f9618efd4ba)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_apply at ./inference.jl:967
+unknown function (ip: 0x7f9618efb91e)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_call at ./inference.jl:1036
+unknown function (ip: 0x7f9618ed93ae)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_eval_call at ./inference.jl:1131
+abstract_eval at ./inference.jl:1152
+unknown function (ip: 0x7f9618ed7316)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+typeinf_frame at ./inference.jl:1786
+typeinf_loop at ./inference.jl:1660
+typeinf_edge at ./inference.jl:1597
+unknown function (ip: 0x7f9618edef7a)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+typeinf_edge at ./inference.jl:1603
+unknown function (ip: 0x7f9618edd7ea)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_call_gf_by_type at ./inference.jl:893
+unknown function (ip: 0x7f9618edd1e6)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_call at ./inference.jl:1101
+unknown function (ip: 0x7f9618efd4ba)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_apply at ./inference.jl:967
+unknown function (ip: 0x7f9618efb91e)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_call at ./inference.jl:1036
+unknown function (ip: 0x7f9618ed93ae)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_eval_call at ./inference.jl:1131
+abstract_eval at ./inference.jl:1152
+unknown function (ip: 0x7f9618ed7316)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+typeinf_frame at ./inference.jl:1786
+typeinf_loop at ./inference.jl:1660
+typeinf_edge at ./inference.jl:1597
+unknown function (ip: 0x7f9618edef7a)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+typeinf_edge at ./inference.jl:1603
+unknown function (ip: 0x7f9618edd7ea)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_call_gf_by_type at ./inference.jl:893
+unknown function (ip: 0x7f9618edd1e6)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_call at ./inference.jl:1101
+unknown function (ip: 0x7f9618efd4ba)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_apply at ./inference.jl:967
+unknown function (ip: 0x7f9618efb91e)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_call at ./inference.jl:1036
+unknown function (ip: 0x7f9618ed93ae)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_eval_call at ./inference.jl:1131
+abstract_eval at ./inference.jl:1152
+unknown function (ip: 0x7f9618ed7316)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+typeinf_frame at ./inference.jl:1786
+typeinf_loop at ./inference.jl:1660
+typeinf_edge at ./inference.jl:1597
+unknown function (ip: 0x7f9618edef7a)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+typeinf_edge at ./inference.jl:1603
+unknown function (ip: 0x7f9618edd7ea)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_call_gf_by_type at ./inference.jl:893
+unknown function (ip: 0x7f9618edd1e6)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_call at ./inference.jl:1101
+unknown function (ip: 0x7f9618ed93ae)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+abstract_eval_call at ./inference.jl:1131
+abstract_eval at ./inference.jl:1152
+unknown function (ip: 0x7f9618ed7316)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+typeinf_frame at ./inference.jl:1786
+typeinf_loop at ./inference.jl:1677
+unknown function (ip: 0x7f9618ed547b)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+typeinf_edge at ./inference.jl:1597
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+typeinf_ext at ./inference.jl:1621
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+jl_apply at /build/julia-bVoEld/julia-0.5.2/src/julia.h:1388 [inlined]
+jl_type_infer at /build/julia-bVoEld/julia-0.5.2/src/gf.c:213
+jl_compile_for_dispatch at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1298
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:206 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+do_call at /build/julia-bVoEld/julia-0.5.2/src/interpreter.c:66
+eval at /build/julia-bVoEld/julia-0.5.2/src/interpreter.c:190
+do_call at /build/julia-bVoEld/julia-0.5.2/src/interpreter.c:65
+eval at /build/julia-bVoEld/julia-0.5.2/src/interpreter.c:190
+eval_body at /build/julia-bVoEld/julia-0.5.2/src/interpreter.c:469
+jl_interpret_call at /build/julia-bVoEld/julia-0.5.2/src/interpreter.c:573
+jl_toplevel_eval_flex at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:572
+jl_parse_eval_all at /build/julia-bVoEld/julia-0.5.2/src/ast.c:717
+jl_load at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:596
+jl_load_ at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:605
+include_from_node1 at ./loading.jl:488
+unknown function (ip: 0x7f9618fff48b)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+process_options at ./client.jl:265
+_start at ./client.jl:321
+unknown function (ip: 0x7f9619024758)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+unknown function (ip: 0x401aec)
+unknown function (ip: 0x4013a6)
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x4013f8)
+unknown function (ip: 0xffffffffffffffff)
+Allocations: 3092583 (Pool: 3091495; Big: 1088); GC: 3
+
+signal (11): Segmentation fault
+while loading /root/MyEMEWSProject/MEModel/fw1.jl, in expression starting on line 16
+ERROR: LoadError: write: broken pipe (EPIPE)
+ in yieldto(::Task, ::ANY) at ./event.jl:136
+ in wait() at ./event.jl:169
+ in stream_wait(::Task) at ./stream.jl:44
+ in uv_write(::Base.PipeEndpoint, ::Ptr{UInt8}, ::UInt64) at ./stream.jl:820
+ in unsafe_write(::Base.PipeEndpoint, ::Ptr{UInt8}, ::UInt64) at ./stream.jl:830
+ in _show(::Base.PipeEndpoint, ::Float64, ::Int64, ::Int64, ::Bool, ::String, ::String) at ./grisu/grisu.jl:110
+ in show at ./grisu/grisu.jl:123 [inlined]
+ in print(::Base.PipeEndpoint, ::Float64) at ./strings/io.jl:8
+ in print(::Float64) at ./coreio.jl:4
+ in include_from_node1(::String) at ./loading.jl:488
+ in process_options(::Base.JLOptions) at ./client.jl:265
+ in _start() at ./client.jl:321
+while loading /root/MyEMEWSProject/MEModel/fw1.jl, in expression starting on line 23

@@ -1,0 +1,115 @@
+Traceback (most recent call last):
+  File "/root/MyEMEWSProject/Simulator/CalibrationTest.py", line 27, in <module>
+    calibrationtest(x,dir)
+  File "/root/MyEMEWSProject/Simulator/CalibrationTest.py", line 12, in calibrationtest
+    output = p1.communicate()[0]
+  File "/usr/lib/python2.7/subprocess.py", line 792, in communicate
+    stdout = _eintr_retry_call(self.stdout.read)
+  File "/usr/lib/python2.7/subprocess.py", line 476, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt
+
+signal (2): Interrupt
+while loading /root/.julia/v0.5/TrafficAssignment/src/TrafficAssignment.jl, in expression starting on line 4
+jl_args_morespecific at /build/julia-bVoEld/julia-0.5.2/src/jltypes.c:3165
+jl_typemap_list_insert_sorted at /build/julia-bVoEld/julia-0.5.2/src/typemap.c:1103 [inlined]
+jl_typemap_list_insert_ at /build/julia-bVoEld/julia-0.5.2/src/typemap.c:933
+jl_typemap_insert_generic at /build/julia-bVoEld/julia-0.5.2/src/typemap.c:942
+jl_typemap_insert at /build/julia-bVoEld/julia-0.5.2/src/typemap.c:1076
+jl_method_table_insert at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1063
+jl_insert_methods at /build/julia-bVoEld/julia-0.5.2/src/dump.c:1908 [inlined]
+_jl_restore_incremental at /build/julia-bVoEld/julia-0.5.2/src/dump.c:2728
+_jl_restore_incremental at /build/julia-bVoEld/julia-0.5.2/src/dump.c:2677 [inlined]
+jl_restore_incremental at /build/julia-bVoEld/julia-0.5.2/src/dump.c:2765
+_include_from_serialized at ./loading.jl:150
+_require_from_serialized at ./loading.jl:187
+_require_search_from_serialized at ./loading.jl:217
+unknown function (ip: 0x7fb5891b79c0)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+require at ./loading.jl:371
+unknown function (ip: 0x7fb589039cdb)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+jl_apply at /build/julia-bVoEld/julia-0.5.2/src/julia.h:1388 [inlined]
+read_verify_mod_list at /build/julia-bVoEld/julia-0.5.2/src/dump.c:1947
+_jl_restore_incremental at /build/julia-bVoEld/julia-0.5.2/src/dump.c:2693
+_jl_restore_incremental at /build/julia-bVoEld/julia-0.5.2/src/dump.c:2677 [inlined]
+jl_restore_incremental at /build/julia-bVoEld/julia-0.5.2/src/dump.c:2765
+_include_from_serialized at ./loading.jl:150
+_require_from_serialized at ./loading.jl:187
+_require_search_from_serialized at ./loading.jl:217
+unknown function (ip: 0x7fb5891b79c0)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+require at ./loading.jl:371
+unknown function (ip: 0x7fb589039cdb)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+jl_apply at /build/julia-bVoEld/julia-0.5.2/src/julia.h:1388 [inlined]
+eval_import_path_ at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:402
+eval_import_path at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:429 [inlined]
+jl_toplevel_eval_flex at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:480
+jl_toplevel_eval_flex at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:533
+jl_eval_module_expr at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:196
+jl_toplevel_eval_flex at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:465
+jl_parse_eval_all at /build/julia-bVoEld/julia-0.5.2/src/ast.c:717
+jl_load at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:596
+jl_load_ at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:605
+include_from_node1 at ./loading.jl:488
+unknown function (ip: 0x7fb588fff48b)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+do_call at /build/julia-bVoEld/julia-0.5.2/src/interpreter.c:66
+eval at /build/julia-bVoEld/julia-0.5.2/src/interpreter.c:190
+jl_toplevel_eval_flex at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:558 [inlined]
+jl_toplevel_eval at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:580
+jl_toplevel_eval_in_warn at /build/julia-bVoEld/julia-0.5.2/src/builtins.c:590
+eval at ./boot.jl:234
+unknown function (ip: 0x7fb588fead6f)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+require at ./loading.jl:415
+unknown function (ip: 0x7fb589039cdb)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+jl_apply at /build/julia-bVoEld/julia-0.5.2/src/julia.h:1388 [inlined]
+eval_import_path_ at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:402
+eval_import_path at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:429 [inlined]
+jl_toplevel_eval_flex at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:480
+jl_parse_eval_all at /build/julia-bVoEld/julia-0.5.2/src/ast.c:717
+jl_load at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:596
+jl_load_ at /build/julia-bVoEld/julia-0.5.2/src/toplevel.c:605
+include_from_node1 at ./loading.jl:488
+unknown function (ip: 0x7fb588fff48b)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+process_options at ./client.jl:265
+_start at ./client.jl:321
+unknown function (ip: 0x7fb589024758)
+jl_call_method_internal at /build/julia-bVoEld/julia-0.5.2/src/julia_internal.h:211 [inlined]
+jl_apply_generic at /build/julia-bVoEld/julia-0.5.2/src/gf.c:1950
+unknown function (ip: 0x401aec)
+unknown function (ip: 0x4013a6)
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x4013f8)
+unknown function (ip: 0xffffffffffffffff)
+Allocations: 1950868 (Pool: 1949913; Big: 955); GC: 0
+
+signal (11): Segmentation fault
+while loading /root/.julia/v0.5/TrafficAssignment/src/TrafficAssignment.jl, in expression starting on line 4
+ERROR: LoadError: write: broken pipe (EPIPE)
+ in yieldto(::Task, ::ANY) at ./event.jl:136
+ in wait() at ./event.jl:169
+ in stream_wait(::Task) at ./stream.jl:44
+ in uv_write(::Base.PipeEndpoint, ::Ptr{UInt8}, ::UInt64) at ./stream.jl:820
+ in unsafe_write(::Base.PipeEndpoint, ::Ptr{UInt8}, ::UInt64) at ./stream.jl:830
+ in write(::Base.PipeEndpoint, ::Array{UInt8,1}) at ./io.jl:175
+ in _show(::Base.PipeEndpoint, ::Float64, ::Int64, ::Int64, ::Bool, ::String, ::String) at ./grisu/grisu.jl:95
+ in show at ./grisu/grisu.jl:123 [inlined]
+ in print(::Base.PipeEndpoint, ::Float64) at ./strings/io.jl:8
+ in print(::Float64) at ./coreio.jl:4
+ in include_from_node1(::String) at ./loading.jl:488
+ in process_options(::Base.JLOptions) at ./client.jl:265
+ in _start() at ./client.jl:321
+while loading /root/MyEMEWSProject/Simulator/fw1.jl, in expression starting on line 23
